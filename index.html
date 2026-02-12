@@ -74,6 +74,16 @@ button {
     border-radius: 25px;
     font-size: 18px;
 }
+
+/* GIF styling */
+.valentine-gif {
+    width: 200px;             /* adjust size if needed */
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid white;  /* white border */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* optional shadow */
+}
 </style>
 </head>
 
@@ -81,6 +91,11 @@ button {
 
 <!-- STAGE 1 -->
 <div id="stage1" class="screen">
+    <!-- GIF -->
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGhycjhiMG44a2phbXp6Y3I2ZXU3bWE3MHRhMHduNzV4cXNwY3dpciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IzXiddo2twMmdmU8Lv/giphy.gif" 
+         alt="Valentine GIF" 
+         class="valentine-gif">
+
     <h1>Will you be my Valentine? ❤️</h1>
     <button class="yes-btn" onclick="showUnlock()">Yes</button>
     <button class="no-btn" id="noBtn">No</button>
